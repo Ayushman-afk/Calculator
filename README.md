@@ -1,6 +1,3 @@
-# How to run the project - 
-you can download the code, and use any **ide that supports python and html** (ex - Pycharm (I used pycharm for this project) or VsCode)
-
 # Languages 
 mainly html and a little bit of python, Html was used to make the basic screen and python was used to execute the button code.
 

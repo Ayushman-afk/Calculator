@@ -1,18 +1,17 @@
 # Languages 
-mainly html and a little bit of python, Html was used to make the basic screen and python was used to execute the button code.
+mainly html and a little bit of python, Html was used to make the basic screen and flask was used to make a python server to run all my existing code. 
 
 # Creation
-this idea came to me when I was trying to learn html and make something easy to understand and easy to read code and tell what is happening
-I saw examples on the internet, and they weren't beginner freindly and complex to understand.
-I had to over come challanges with using some functions such as flask which i've never used before. (**removed it thinking its too hard to understand even for me**)
+Used basic flask tutorials to integrate my existing calculator projects
 Html was a newer language for me but it was fairly simple to understand and write. 
 
 # Demo
-to use this project and view it go to - https://ayushman-afk.github.io/Shackled/
+to use this project and view it go to - http://127.0.0.1:5000/
 To view code go to - https://github.com/Ayushman-afk/Shackled
+Tax Calculator - https://github.com/Ayushman-afk/Tax-Calculator
+Math Calculator - https://github.com/Ayushman-afk/Math-Calculator
+Unit Converter -  https://github.com/Ayushman-afk/Unit-Converter
 
 
-# extra 
 
-The name is Shackled, because i thought i would make a game out of this and realized people might need a base template to go 
-off for their games, so I converted my original game idea into this template
+

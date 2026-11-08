@@ -72,16 +72,10 @@
 
 <body>
     <div id="mainmenu">
-    <h1>Shackled</h1>
-    <p>A Chaotic Multiplayer co-op Game (template)</p>
-    <button id="mainscreenplay" onclick="goToPlayScreen()">Play</button>
-    <button id="mainscreensettings">Settings</button>
+    <h1>Calculator</h1>
+    <p>A Menu for Different Calculators</p>
+    <button id="mainscreenplay" onclick="goToPlayScreen()">Start</button>
     </div>
-
-<div id="playscreen">
-    <h2>Choose Your Mode</h2>
-    <button id="solo">Solo</button>
-    <button id="twoplayer">2 Player</button>
 
 
 
@@ -91,22 +85,57 @@
     function goToPlayScreen() {
         document.getElementById('mainmenu').style.display = 'none';
 
-        document.getElementById('playscreen').style.display = 'block';
+        document.getElementById('Calculator_Menu').style.display = 'block';
     }
 </script>
 
 
-<script type="py" src="./main.py"></script>
+
 
 
  <!-- example button opening a window = <button id="test_button" onclick=" window.open('https://google.com', Important to open the window - '_blank')"> Google</button>-->
 
 
+<div id = "Calculator_Menu">
+    <button id = "math_button">Math Calculator</button>
+    <button id = "tax_button">Tax Calculator</button>
+    <button id = "unit_button">Unit Converter</button>
+
+</div>
+
+<style>
+    #Calculator_Menu {
+        display: none;
+    }
+</style>
+
+<div id = "Math_Screen">
+    <h1>Math Calculator</h1>
+    <input id = "first_number" type = "number" placeholder="Enter a number">
+    <input id = "second_number" type = "number" placeholder="Add">
+    <button id = "calculate_button">Calculate</button>
+</div>
+
+<style>
+    #Math_Screen {
+        display: none;
+    }
+</style>
 
 
+<script>
+    document.getElementById("math_button").addEventListener("click", () => {
+        fetch("/run/math");
+    });
 
+    document.getElementById("tax_button").addEventListener("click", () => {
+        fetch("/run/tax");
+    });
 
-
+    document.getElementById("unit_button").addEventListener("click", () => {
+        fetch("/run/unit");
+    });
+</script>
 </body>
 </html>
 

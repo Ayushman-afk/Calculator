@@ -1,6 +1,3 @@
-# How to run the project - 
-you can download the code, and use any **ide that supports python and html** (ex - Pycharm (I used pycharm for this project) or VsCode)
-
 # Languages 
 mainly html and a little bit of python, Html was used to make the basic screen and python was used to execute the button code.
 
@@ -11,11 +8,9 @@ I had to over come challanges with using some functions such as flask which i've
 Html was a newer language for me but it was fairly simple to understand and write. 
 
 # Demo
-I don't think i need a demo for this, as this a just a guide on how to make basic screen and working buttons.
+to use this project and view it go to - https://ayushman-afk.github.io/Shackled/
+To view code go to - https://github.com/Ayushman-afk/Shackled
 
-# ai disclosure
-
-Used to make the banner as I dont have photoshop skills
 
 # extra 
 

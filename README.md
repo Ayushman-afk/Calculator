@@ -1,3 +1,7 @@
+# Overview 
+A display of all my calculators coded in one file. Used html for the website pop up, flask for the website to open and run
+the scripts I have.
+
 # Languages 
 mainly html and a little bit of python, Html was used to make the basic screen and flask was used to make a python server to run all my existing code. 
 
@@ -10,7 +14,7 @@ to use this project and view it go to - https://github.com/Ayushman-afk/Calculat
 1. Download the exe file
 2. then open it from your downloads
 3. then it will run and give a https link
-4. copy the link and then paste it into a broswer
+4. it should automatically open when the script is run through cmd
 5. It should open a window where if you click start
 6. it shows different options
 7. then click any and it opens the code in cmd
